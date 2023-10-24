@@ -1,0 +1,40 @@
+.all {
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.subheading {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  top: 25%;
+}
+
+.hideButton {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  bottom: 10%;
+  padding: 15px;
+}

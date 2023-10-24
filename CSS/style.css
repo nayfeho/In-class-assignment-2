@@ -5,12 +5,16 @@
 .heading {
   display: flex;
   justify-content: center;
+  border: 1px solid red;
+  margin: 10px;
 }
 
 .subheading {
   display: flex;
   justify-content: center;
   padding: 10px;
+  border: 1px solid red;
+  margin: 20px;
 }
 
 .images {
@@ -32,9 +36,5 @@
 
 .buttons {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  bottom: 10%;
-  padding: 15px;
+  justify-content: space-around;
 }
